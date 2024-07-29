@@ -37,5 +37,12 @@ namespace Project_a
             form.Show();
             this.Hide();
         }
+
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            FormThongKe tk = new FormThongKe();
+            tk.Show();
+            this.Hide();
+        }
     }
 }

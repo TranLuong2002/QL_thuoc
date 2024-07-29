@@ -42,10 +42,10 @@ namespace Project_a
             if (txtbUserName.Text == "admin" && txtbPassword.Text == "admin")
             {
                 MessageBox.Show("Đăng nhập thành công");
-                //MainForm mainForm = new MainForm();
-                //mainForm.Show();
-                FormThongKe fs = new FormThongKe();
-                fs.Show();
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
+                /*FormThongKe fs = new FormThongKe();
+                fs.Show();*/
                 this.Hide();
             }
             else { MessageBox.Show("Đăng nhập thất bại"); }

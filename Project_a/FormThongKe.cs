@@ -23,5 +23,12 @@ namespace Project_a
             this.reportViewer1.RefreshReport();
             this.reportViewer1.RefreshReport();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
+            this.Hide();
+        }
     }
 }
